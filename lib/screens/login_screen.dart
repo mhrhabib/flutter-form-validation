@@ -41,6 +41,7 @@ class _LoginScreenState extends State<LoginScreen> with ValidatorMixin {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: TextFormField(
+                obscureText: true,
                 decoration: const InputDecoration(
                   label: Text('PASSWORD'),
                   hintText: "Enter your  password",
