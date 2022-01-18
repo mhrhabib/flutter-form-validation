@@ -1,6 +1,6 @@
 class ValidatorMixin {
   String? validateEmail(value) {
-    if (!value.contains('@com')) {
+    if (!value.contains('@')) {
       return 'please enter a valid email';
     }
   }
